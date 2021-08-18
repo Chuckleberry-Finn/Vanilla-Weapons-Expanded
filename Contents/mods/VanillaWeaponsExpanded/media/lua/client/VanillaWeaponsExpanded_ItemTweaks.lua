@@ -3,6 +3,10 @@ require("ItemTweaker_Core");
 else  return  end
 
 --TweakItem("MODULE.ITEM","VARIABLE","VALUE");
+TweakItem("Base.Plunger","HitFloorSound", "PlungerHit");
+TweakItem("Base.Plunger","ImpactSound", "smolerBatHit");
+TweakItem("Base.Plunger","HitSound", "smolerBatHit");
+TweakItem("Base.Plunger","SwingAnim", "Stab");
 
 TweakItem("farming.WateredCan","MetalValue","40")
 TweakItem("farming.WateredCan","Type","Weapon")

@@ -1,6 +1,0 @@
-name=Vanilla Weapons Expanded (B41) - Silly Plunger
-id=VanillaWeaponsExpanded - Silly Plunger
-version=1
-description=Silly Plunger Option. Plungers use the stab animation and POP! when you ground attack. Please see workshop page for more information/warnings/change log.
-poster=poster.png
-require=ItemTweakerAPI
