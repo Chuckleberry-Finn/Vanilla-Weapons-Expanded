@@ -14,7 +14,8 @@ description=Changelog:
 description=
 description=Weaponizes and Adds Sounds to: Mug, Kettle, Gas Can, Water/Pop/Whiskey/Wine/Wine2/Beer/Mayo/Remoulade/Bleach Bottle, Jar, Bucket (Added Texture), Paint Bucket, Watering Can, Garden Spray, Garden/Hack Saw, Sturdy Stick
 description=
-description=Modifies Only the Sound Of: Frying/Gridle Pan, Cooking Pot, Sauce Pan, Dumbbell, Barbell, Pipe Wrench, Lead Pipe, Metal Bar, Metal Pipe, Crowbar, Fishing Rods, Golf Club, Pool Cue, Shovels, Rackets, Guitars, Banjo, Flute, Trumpet, Sax, Cleaver, Scythe (default sound was for blunt weapons, changed to bladed)
+description=Modifies Only the Sound Of: Frying/Gridle Pan, Cooking Pot, Sauce Pan, Dumbbell, Barbell, Lug Wrench, Pipe Wrench, Lead Pipe, Metal Bar, Metal Pipe, Crowbar, Fishing Rods, Golf
+Club, Pool Cue, Shovels, Rackets, Guitars, Banjo, Flute, Trumpet, Sax, Cleaver, Scythe (default sound was for blunt weapons, changed to bladed)
 description=
 description=Tags:B41,Textures,Models,Weapons,Tweak,Realistic
 tags=Build 41;Textures;Models;Weapons;Tweak;Realistic
