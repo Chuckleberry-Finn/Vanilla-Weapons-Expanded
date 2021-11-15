@@ -4,7 +4,7 @@ title=Vanilla Weapons Expanded
 description=More improvised weapons!
 description=
 description=[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
-description= 
+description=
 description=[url=https://ko-fi.com/chuckleberryfinn][img]https://i.imgur.com/GxZ38nz.png[/img] [b]Consider supporting Chuck[/b][/url]
 description=
 description=WARNING: Any other mod that modifies the below listed weapons/items MAY have a conflict.
@@ -15,8 +15,7 @@ description=
 description=Weaponizes and Adds Sounds to: Mug, Kettle, Gas Can, Water/Pop/Whiskey/Wine/Wine2/Beer/Mayo/Remoulade/Bleach Bottle, Jar, Bucket (Added Texture), Paint Bucket, Watering Can, Garden Spray, Garden/Hack Saw, Sturdy Stick
 description=
 description=Modifies Only the Sound Of: Frying/Gridle Pan, Cooking Pot, Sauce Pan, Dumbbell, Barbell, Lug Wrench, Pipe Wrench, Lead Pipe, Metal Bar, Metal Pipe, Crowbar, Fishing Rods, Golf
-Club, Pool Cue, Shovels, Rackets, Guitars, Banjo, Flute, Trumpet, Sax, Cleaver, Scythe (default sound was for blunt weapons, changed to bladed)
 description=
 description=Tags:B41,Textures,Models,Weapons,Tweak,Realistic
-tags=Build 41;Textures;Models;Weapons;Tweak;Realistic
+tags=Build 41;Models;Realistic;Textures;Weapons
 visibility=public
