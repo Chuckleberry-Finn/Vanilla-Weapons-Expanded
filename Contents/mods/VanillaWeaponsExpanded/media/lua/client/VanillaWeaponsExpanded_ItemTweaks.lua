@@ -1,3 +1,6 @@
+---Pre-B41 itemTweaker method
+---File left behind to avoid Steam's inability to remove files
+--[[
 if  getActivatedMods():contains("ItemTweakerAPI")  then
 require("ItemTweaker_Core");
 else  return  end
@@ -1066,3 +1069,4 @@ TweakItem("Base.Kettle","TreeDamage","0")
 TweakItem("Base.Kettle","EnduranceMod","0.5")
 TweakItem("Base.Kettle","CriticalChance","15")
 TweakItem("Base.Kettle","CritDmgMultiplier","3")
+--]]
