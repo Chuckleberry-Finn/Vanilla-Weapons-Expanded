@@ -3,4 +3,4 @@ version=1.2
 id=VanillaWeaponsExpanded
 description=Some items in game (that have models) can now be used as improvised weapons. Please see workshop page for more information/warnings/change log.
 poster=poster.png
-require=ItemTweakerAPI
+
