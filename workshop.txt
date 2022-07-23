@@ -1,14 +1,14 @@
 version=1
 id=2357915214
 title=Vanilla Weapons Expanded
-description=More improvised weapons!
+description=[h3]More improvised weapons![/h3]
 description=
 description=[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
 description=
 description=[url=https://ko-fi.com/chuckleberryfinn][img]https://i.imgur.com/GxZ38nz.png[/img] [b]Consider supporting Chuck![/b][/url] [url=https://www.patreon.com/bePatron?u=17239488][img]https://raw.githubusercontent.com/ChuckTheSheep/Vanilla-Weapons-Expanded/main/Contents/Patreon%20Logo.png[/img][/url]
 description=
-description=WARNING: Any other mod that modifies the below listed weapons/items MAY have a conflict.
-description=ALSO: You will have to create a new game after installing/uninstalling this mod due to item's 'type' value being changed.
+description=[h2]WARNING: Any other mod that modifies the below listed weapons/items MAY have a conflict.[/h2]
+description=[h3]ALSO: You will have to create a new game after installing/uninstalling this mod due to item's 'type' value being changed.[/h3]
 description=
 description=Weaponizes/Adds Sounds to the following items: Base.Bowl,Base.WineEmpty2,Base.MugRed,Base.PopBottleEmpty,Base.TreeBranch,Base.Plunger,Base.Saw,Base.BeerEmpty,Base.LugWrench,Base.Mugl,Base.PaintbucketEmpty,Base.MugWhite,Base.BucketEmpty,Base.MugSpiffo,Base.Pot,Base.EmptyJar,Base.WineEmpty,Base.WoodenStick,Base.WhiskeyEmpty,Base.WaterBottleEmpty,Base.BleachEmpty,Base.Kettle,Base.GardenSaw,Base.EmptyPetrolCan,farming.RemouladeEmpty,farming.WateredCan,farming.GardeningSprayEmpty,farming.MayonnaiseEmpty,
 description=
