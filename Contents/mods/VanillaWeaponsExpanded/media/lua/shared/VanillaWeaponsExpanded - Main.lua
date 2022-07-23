@@ -823,7 +823,7 @@ local function expandWeapons()
                     itemScript:DoParam(param.." = "..data)
                 end
             end
-            expandedWeaponsText = expandedWeaponsText or "   Applied On: "
+            expandedWeaponsText = expandedWeaponsText or "   Weaponizes/Adds Sounds to the following items: "
             expandedWeaponsText = expandedWeaponsText..itemScript:getFullName()..", "
         else
             if tostring(itemScript:getType()) == "Normal" then
@@ -835,7 +835,7 @@ local function expandWeapons()
 
     if getDebug() then
         local debugText = "Vanilla Weapons Expanded:\n"
-        if expandedWeaponsText then debugText = debugText..expandedWeaponsText.."\n" end
+        if expandedWeaponsText then debugText = debugText..expandedWeaponsText.."\n\n" end
         if leftOverNormalsText then debugText = debugText..leftOverNormalsText.."\n" end
         print(debugText)
     end

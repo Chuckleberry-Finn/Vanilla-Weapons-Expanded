@@ -1,7 +1,7 @@
 version=1
 id=2357915214
 title=Vanilla Weapons Expanded
-description=[h3]More improvised weapons![/h3]
+description=[h3]More vanilla items are improvised weapons![/h3]
 description=
 description=[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
 description=
