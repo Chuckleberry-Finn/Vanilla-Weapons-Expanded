@@ -950,7 +950,72 @@ local VanillaWeaponsExpanded = {
         ["CriticalChance"] = "15",
         ["CritDmgMultiplier"] = "3",
     },
-
+--[[
+    ["Base.ModernCarMuffler1"] = {}, --big metal hollow
+    ["Base.ModernCarMuffler2"] = {}, --big metal hollow
+    ["Base.ModernCarMuffler3"] = {}, --big metal hollow
+    ["Base.NormalCarMuffler1"] = {}, --big metal hollow
+    ["Base.NormalCarMuffler2"] = {}, --big metal hollow
+    ["Base.NormalCarMuffler3"] = {}, --big metal hollow
+    ["Base.Jack"] = {}, --big metal rattle
+    ["Base.BeerCanEmpty"] = {}, --can
+    ["Base.TinCanEmpty"] = {}, --can
+    ["Base.GlassTumbler"] = {}, --glass
+    ["Base.GlassWine"] = {}, --glass
+    ["Base.Log"] = {}, --huge swing
+    ["Base.TirePump"] = {}, --metal rattle
+    ["Base.Spatula"] = {}, --metal rattle small
+    ["Base.Stapler"] = {}, --metal rattle small
+    ["Base.TinOpener"] = {}, --metal rattle small
+    ["Base.Tongs"] = {}, --metal rattle small
+    ["Base.BakingPan"] = {}, --metal whack
+    ["Base.BakingTray"] = {}, --metal whack
+    ["Base.MuffinTray"] = {}, --metal whack
+    ["Base.RoastingPan"] = {}, --metal whack
+    ["Base.WaterDish"] = {}, --metal whack
+    ["Base.PercedWood"] = {}, --plank
+    ["Base.FountainCup"] = {}, --plastic bottle
+    ["Base.PlasticCup"] = {}, --plastic bottle
+    ["Base.Pop2Empty"] = {}, --plastic bottle
+    ["Base.Pop3Empty"] = {}, --plastic bottle
+    ["Base.PopEmpty"] = {}, --plastic bottle
+    ["Base.PlasticTray"] = {}, --plastic flat
+    ["Base.Remote"] = {}, --plastic flat
+    ["Base.CuttingBoardPlastic"] = {}, --plastic whack
+    ["Base.DogChew"] = {}, --plastic whack
+    ["Base.Pillow"] = {}, --puff
+    ["Base.Lamp"] = {}, --shatter
+    ["Base.Plate"] = {}, --shatter
+    ["Base.PlateBlue"] = {}, --shatter
+    ["Base.PlateFancy"] = {}, --shatter
+    ["Base.PlateOrange"] = {}, --shatter
+    ["Base.Teacup"] = {}, --shatter
+    ["Base.HolePuncher"] = {}, --small metal
+    ["Base.Pipe"] = {}, --small metal hollow
+    ["Base.KitchenTongs"] = {}, --small metal rattle
+    ["Base.Bell"] = {}, --special
+    ["Base.Belt"] = {}, --special
+    ["Base.CordlessPhone"] = {}, --special
+    ["Base.CarvingFork"] = {}, --stab
+    ["Base.Chopsticks"] = {}, --stab
+    ["Base.Corkscrew"] = {}, --stab
+    ["Base.Dart"] = {}, --stab
+    ["Base.KnittingNeedles"] = {}, --stab
+    ["Base.Toothbrush"] = {}, --stab
+    ["camping.TentPeg"] = {}, --stab
+    ["Base.SharpedStone"] = {}, --thud
+    ["Base.Stone"] = {}, --thud
+    ["Base.CuttingBoardWooden"] = {}, --wood whack
+    ["Base.GrillBrush"] = {}, --wood whack
+    ["Base.Handle"] = {}, --wood whack
+    ["Base.Twigs"] = {}, --wood whack
+    ["Base.Umbrella"] = {}, --wood whack
+    ["Base.UmbrellaBlack"] = {}, --wood whack
+    ["Base.UmbrellaBlue"] = {}, --wood whack
+    ["Base.UmbrellaRed"] = {}, --wood whack
+    ["Base.UmbrellaWhite"] = {}, --wood whack
+    ["Base.Mop"] = {}, --wood whack
+--]]
 }
 
 
@@ -972,12 +1037,12 @@ local function expandWeapons()
             for param,data in pairs(expandedWeaponInfo) do
                 itemScript:DoParam(param.." = "..data)
             end
-            expandedWeaponsText = expandedWeaponsText or " - Applied On:\n"
-            expandedWeaponsText = expandedWeaponsText.." -- "..itemScript:getFullName()..", \n"
+            expandedWeaponsText = expandedWeaponsText or "   Applied On:\n"
+            expandedWeaponsText = expandedWeaponsText.."    "..itemScript:getFullName()..", \n"
         else
             if tostring(itemScript:getType()) == "Normal" then
-                leftOverNormalsText = leftOverNormalsText or " - Normal Types Remaining:\n"
-                leftOverNormalsText = leftOverNormalsText.." -- "..itemScript:getFullName()..", \n"
+                leftOverNormalsText = leftOverNormalsText or "   Normal Types Remaining:\n"
+                leftOverNormalsText = leftOverNormalsText.."    "..itemScript:getFullName()..", \n"
             end
         end
     end
