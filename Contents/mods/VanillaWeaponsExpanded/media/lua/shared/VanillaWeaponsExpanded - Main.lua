@@ -1048,7 +1048,7 @@ local function expandWeapons()
     end
 
     if getDebug() then
-        local debugText = "Vanilla Weapons Expanded:"
+        local debugText = "Vanilla Weapons Expanded:\n"
         if expandedWeaponsText then debugText = debugText..expandedWeaponsText end
         if leftOverNormalsText then debugText = debugText..leftOverNormalsText end
         print(debugText)
