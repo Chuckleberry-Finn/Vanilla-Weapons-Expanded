@@ -409,7 +409,6 @@ local VanillaWeaponsExpanded = {
         ["SwingTime"] = "4",
         ["KnockdownMod"] = "2",
         ["SplatBloodOnNoDeath"] = "FALSE",
-        ["Icon"] = "Plank",
         ["RunAnim"] = "Run_Weapon2",
         ["IdleAnim"] = "Idle_Weapon2",
         ["BreakSound"] = "PlankBreak",
