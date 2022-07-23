@@ -10,8 +10,9 @@ description=
 description=[h2]WARNING: Any other mod that modifies the below listed weapons/items MAY have a conflict.[/h2]
 description=[h3]ALSO: You will have to create a new game after installing/uninstalling this mod due to item's 'type' value being changed.[/h3]
 description=
-description=Weaponizes/Adds Sounds to the following items: Base.Bowl,Base.WineEmpty2,Base.MugRed,Base.PopBottleEmpty,Base.TreeBranch,Base.Plunger,Base.Saw,Base.BeerEmpty,Base.LugWrench,Base.Mugl,Base.PaintbucketEmpty,Base.MugWhite,Base.BucketEmpty,Base.MugSpiffo,Base.Pot,Base.EmptyJar,Base.WineEmpty,Base.WoodenStick,Base.WhiskeyEmpty,Base.WaterBottleEmpty,Base.BleachEmpty,Base.Kettle,Base.GardenSaw,Base.EmptyPetrolCan,farming.RemouladeEmpty,farming.WateredCan,farming.GardeningSprayEmpty,farming.MayonnaiseEmpty,
+description=Weaponizes/Adds Sounds to the following items: Applied On: Base.Bowl, Base.WineEmpty2, Base.Tweezers, Base.Teacup, Base.MugRed, Base.PopBottleEmpty, Base.TreeBranch, Base.Corkscrew, Base.Plunger, Base.Chopsticks, Base.Dart, Base.Saw, Base.BeerEmpty, Base.LugWrench, Base.Mugl, Base.PercedWood, Base.PlateFancy, Base.PaintbucketEmpty, Base.MugWhite, Base.BucketEmpty, Base.MugSpiffo, Base.CarvingFork, Base.Pot, Base.GlassWine, Base.EmptyJar, Base.ModernCarMuffler1, Base.ModernCarMuffler2, Base.ModernCarMuffler3, Base.WineEmpty, Base.PlateBlue, Base.GlassTumbler, Base.WoodenStick, Base.WhiskeyEmpty, Base.WaterBottleEmpty, Base.PlasticCup, Base.BleachEmpty, Base.Kettle, Base.PlateOrange, Base.Toothbrush, Base.Plate, Base.GardenSaw, Base.KnittingNeedles, Base.EmptyPetrolCan, Base.NormalCarMuffler2, Base.NormalCarMuffler3, Base.NormalCarMuffler1, camping.TentPeg, farming.RemouladeEmpty, farming.WateredCan, farming.GardeningSprayEmpty, farming.MayonnaiseEmpty,
 description=
 description=Tags:B41,Textures,Models,Weapons,Tweak,Realistic
 tags=Build 41;Realistic;Silly/Fun;Weapons
 visibility=private
+
