@@ -1,1 +1,1 @@
----old file to keep blank due to steam not removing old files
+---Dummy file created to prevent issues with Steam not being able to delete removed files from player's folders.
