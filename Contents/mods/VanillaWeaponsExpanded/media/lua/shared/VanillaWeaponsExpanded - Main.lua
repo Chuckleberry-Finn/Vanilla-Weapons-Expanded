@@ -948,15 +948,19 @@ local VanillaWeaponsExpanded = {
         ["wep_profile"] = "SmallMetalHit",
     },
 
+    ["Base.CordlessPhone"] = {
+        ["wep_profile"] = "SmallMetalHit",
+    },
+
 --[[
     ["Base.PlasticTray"] = {}, --plastic flat
+    ["Base.CuttingBoardPlastic"] = {}, --plastic whack
 
     ["Base.Remote"] = {}, --plastic whack
-    ["Base.CuttingBoardPlastic"] = {}, --plastic whack
     ["Base.DogChew"] = {}, --plastic whack
 
     ["Base.Pillow"] = {}, --special
-    ["Base.CordlessPhone"] = {}, --special
+
 
     ["Base.SharpedStone"] = {}, --thud
     ["Base.Stone"] = {}, --thud
