@@ -206,6 +206,39 @@ local WeaponProfiles = {
         ["CriticalChance"] = "0",
         ["CritDmgMultiplier"] = "0",
     },
+
+    ["ThinWood"] = {
+        ["Type"] = "Weapon",
+        ["MaxRange"] = "1.5",
+        ["MinAngle"] = "0.75",
+        ["MinimumSwingTime"] = "2",
+        ["KnockBackOnNoDeath"] = "FALSE",
+        ["SwingAmountBeforeImpact"] = "0.02",
+        ["ConditionLowerChanceOneIn"] = "1",
+        ["SplatNumber"] = "1",
+        ["PushBackMod"] = "0.3",
+        ["SubCategory"] = "Swinging",
+        ["ConditionMax"] = "3",
+        ["MaxHitCount"] = "2",
+        ["DoorDamage"] = "0",
+        ["SwingAnim"] = "Bat",
+        ["KnockdownMod"] = "2",
+        ["RunAnim"] = "Run_Weapon2",
+        ["IdleAnim"] = "Idle_Weapon2",
+        ["SplatBloodOnNoDeath"] = "FALSE",
+        ["BreakSound"] = "BreakWoodItem",
+        ["HitFloorSound"] = "smolerBatHit",
+        ["ImpactSound"] = "smolerBatHit",
+        ["HitSound"] = "smolerBatHit",
+        ["swingSound"] = "ThinBatSwing",
+        ["TreeDamage"] = "0",
+        ["CriticalChance"] = "0",
+        ["MinDamage"] = "0.2",
+        ["MaxDamage"] = "0.3",
+        ["BaseSpeed"] = "1.3",
+        ["Categories"] = "Improvised;Blunt",
+        ["SwingTime"] = "2",
+    },
 }
 
 
@@ -627,73 +660,53 @@ local VanillaWeaponsExpanded = {
     },
 
     ["Base.WoodenStick"] = {
-        ["MaxRange"] = "1.6",
-        ["MaxRange"] = "0.9",
+        ["wep_profile"] = "ThinWood",
         ["WeaponSprite"] = "WoodenStick",
-        ["MinAngle"] = "0.65",
-        ["Type"] = "Weapon",
-        ["MinimumSwingTime"] = "4",
-        ["KnockBackOnNoDeath"] = "FALSE",
-        ["SwingAmountBeforeImpact"] = "0.02",
-        ["Categories"] = "Improvised;SmallBlunt",
-        ["ConditionLowerChanceOneIn"] = "1",
-        ["SplatNumber"] = "1",
-        ["PushBackMod"] = "0.3",
-        ["SubCategory"] = "Swinging",
-        ["ConditionMax"] = "1",
-        ["MaxHitCount"] = "2",
-        ["DoorDamage"] = "0",
-        ["SwingAnim"] = "Bat",
-        ["MinRange"] = "0.61",
-        ["SwingTime"] = "4",
-        ["KnockdownMod"] = "2",
-        ["SplatBloodOnNoDeath"] = "FALSE",
-        ["BreakSound"] = "BreakWoodItem",
-        ["HitFloorSound"] = "smolerBatHit",
-        ["ImpactSound"] = "smolerBatHit",
-        ["HitSound"] = "smolerBatHit",
-        ["swingSound"] = "ThinBatSwing,aa",
-        ["TreeDamage"] = "0",
-        ["CriticalChance"] = "0",
-        ["MinDamage"] = "0.1",
-        ["MaxDamage"] = "0.2",
-        ["BaseSpeed"] = "1.3",
     },
 
+    ["Base.GrillBrush"] = {
+        ["wep_profile"] = "ThinWood",
+        ["WeaponSprite"] = "GrillBrush_Ground",
+    },
+
+    ["Base.Handle"] = {
+        ["wep_profile"] = "ThinWood",
+        ["WeaponSprite"] = "Handle",
+    },
+
+    ["Base.Mop"] = {
+        ["wep_profile"] = "ThinWood",
+        ["WeaponSprite"] = "Mop",
+        ["AttachmentType"] = "Shovel",
+    },
+
+    ["Base.UmbrellaBlack"] = {
+        ["wep_profile"] = "ThinWood",
+        ["WeaponSprite"] = "Umbrella_Closed_Black",
+        ["AttachmentType"] = "Shovel",
+    },
+
+    ["Base.UmbrellaBlue"] = {
+        ["wep_profile"] = "ThinWood",
+        ["WeaponSprite"] = "Umbrella_Closed_Blue",
+        ["AttachmentType"] = "Shovel",
+    },
+
+    ["Base.UmbrellaRed"] = {
+        ["wep_profile"] = "ThinWood",
+        ["WeaponSprite"] = "Umbrella_Closed_Red",
+        ["AttachmentType"] = "Shovel",
+    },
+
+    ["Base.UmbrellaWhite"] = {
+        ["wep_profile"] = "ThinWood",
+        ["WeaponSprite"] = "Umbrella_Closed_White",
+        ["AttachmentType"] = "Shovel",
+    },
 
     ["Base.TreeBranch"] = {
-        ["Type"] = "Weapon",
-        ["MaxRange"] = "1.55",
+        ["wep_profile"] = "ThinWood",
         ["WeaponSprite"] = "Branch",
-        ["MinAngle"] = "0.8",
-        ["MinimumSwingTime"] = "2",
-        ["KnockBackOnNoDeath"] = "FALSE",
-        ["SwingAmountBeforeImpact"] = "0.02",
-        ["Categories"] = "Improvised;Blunt",
-        ["ConditionLowerChanceOneIn"] = "1",
-        ["SplatNumber"] = "1",
-        ["PushBackMod"] = "0.3",
-        ["SubCategory"] = "Swinging",
-        ["ConditionMax"] = "3",
-        ["MaxHitCount"] = "2",
-        ["DoorDamage"] = "1",
-        ["SwingAnim"] = "Bat",
-        ["MinRange"] = "0.61",
-        ["SwingTime"] = "2",
-        ["KnockdownMod"] = "0",
-        ["SplatBloodOnNoDeath"] = "FALSE",
-        ["RunAnim"] = "Run_Weapon2",
-        ["IdleAnim"] = "Idle_Weapon2",
-        ["HitFloorSound"] = "smolBatHit",
-        ["ImpactSound"] = "smolBatHit",
-        ["HitSound"] = "smolBatHit",
-        ["TreeDamage"] = "0",
-        ["TwoHandWeapon"] = "TRUE",
-        ["CriticalChance"] = "5",
-        ["CritDmgMultiplier"] = "2",
-        ["MinDamage"] = "0.2",
-        ["MaxDamage"] = "0.3",
-        ["BaseSpeed"] = "1.3",
         ["AttachmentType"] = "Shovel",
     },
 
@@ -849,18 +862,6 @@ local VanillaWeaponsExpanded = {
     ["Base.Stone"] = {}, --thud
 
     ["Base.CuttingBoardWooden"] = {}, --wood flat hit
-
-    ["Base.GrillBrush"] = {}, --wood whack
-    ["Base.Handle"] = {}, --wood whack
-    ["Base.Mop"] = {}, --wood whack
-
-    ["Base.Twigs"] = {}, --wood whack
-
-    ["Base.Umbrella"] = {}, --wood whack / special?
-    ["Base.UmbrellaBlack"] = {}, --wood whack
-    ["Base.UmbrellaBlue"] = {}, --wood whack
-    ["Base.UmbrellaRed"] = {}, --wood whack
-    ["Base.UmbrellaWhite"] = {}, --wood whack
 --]]
 }
 
