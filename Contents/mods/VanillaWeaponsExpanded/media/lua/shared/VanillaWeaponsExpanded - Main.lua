@@ -239,6 +239,40 @@ local WeaponProfiles = {
         ["Categories"] = "Improvised;Blunt",
         ["SwingTime"] = "2",
     },
+
+    ["SmallMetalHit"] = {
+        ["Type"] = "Weapon",
+        ["MaxRange"] = "1",
+        ["MinAngle"] = "0",
+        ["MinimumSwingTime"] = "2",
+        ["KnockBackOnNoDeath"] = "FALSE",
+        ["SwingAmountBeforeImpact"] = "0.02",
+        ["Categories"] = "Improvised;SmallBlunt",
+        ["SplatNumber"] = "1",
+        ["PushBackMod"] = "0.3",
+        ["MinDamage"] = "0.1",
+        ["MaxDamage"] = "0.2",
+        ["SubCategory"] = "Swinging",
+        ["ConditionMax"] = "4",
+        ["ConditionLowerChanceOneIn"] = "2",
+        ["MaxHitCount"] = "2",
+        ["DoorDamage"] = "0",
+        ["SwingAnim"] = "Bat",
+        ["MinRange"] = "0.2",
+        ["SwingTime"] = "2",
+        ["KnockdownMod"] = "0",
+        ["SplatBloodOnNoDeath"] = "FALSE",
+        ["RunAnim"] = "Run_Weapon2",
+        ["IdleAnim"] = "Idle_Weapon2",
+        ["BreakSound"] = "BreakMetalItem",
+        ["HitFloorSound"] = "smolChunkyMetalRattle",
+        ["ImpactSound"] = "smolChunkyMetalRattle",
+        ["HitSound"] = "smolChunkyMetalRattle",
+        ["TreeDamage"] = "0",
+        ["EnduranceMod"] = "0.5",
+        ["CriticalChance"] = "10",
+        ["CritDmgMultiplier"] = "2",
+    },
 }
 
 
@@ -834,28 +868,94 @@ local VanillaWeaponsExpanded = {
         ["WeaponSprite"] = "PopCanDietWorld",
     },
 
+    ["Base.Bell"] = {
+        ["wep_profile"] = "MetalCan",
+        ["WeaponSprite"] = "Bell",
+        ["BreakSound"] = "BreakMetalItem",
+        ["HitFloorSound"] = "smolChunkyMetalRattle",
+        ["ImpactSound"] = "smolChunkyMetalRattle",
+        ["HitSound"] = "smolChunkyMetalRattle",
+    },
+
+    ["Base.Pipe"] = {
+        ["WeaponSprite"] = "WateringCan",
+        ["Type"] = "Weapon",
+        ["MaxRange"] = "1",
+        ["MinAngle"] = "0",
+        ["MinimumSwingTime"] = "2",
+        ["KnockBackOnNoDeath"] = "FALSE",
+        ["SwingAmountBeforeImpact"] = "0.02",
+        ["Categories"] = "Improvised;SmallBlunt",
+        ["SplatNumber"] = "1",
+        ["PushBackMod"] = "0.3",
+        ["MinDamage"] = "0.1",
+        ["MaxDamage"] = "0.2",
+        ["SubCategory"] = "Swinging",
+        ["ConditionMax"] = "5",
+        ["ConditionLowerChanceOneIn"] = "10",
+        ["MaxHitCount"] = "1",
+        ["DoorDamage"] = "0",
+        ["SwingAnim"] = "Bat",
+        ["MinRange"] = "0.61",
+        ["SwingTime"] = "2",
+        ["KnockdownMod"] = "0",
+        ["SplatBloodOnNoDeath"] = "FALSE",
+        ["RunAnim"] = "Run_Weapon2",
+        ["IdleAnim"] = "Idle_Weapon2",
+        ["BreakSound"] = "BreakMetalItem",
+        ["HitFloorSound"] = "smolPlasticHit",
+        ["ImpactSound"] = "smolPlasticHit",
+        ["HitSound"] = "smolPlasticHit",
+        ["TreeDamage"] = "0",
+        ["EnduranceMod"] = "0.5",
+        ["CriticalChance"] = "0",
+        ["CritDmgMultiplier"] = "0",
+    },
+
+    ["Base.Jack"] = {
+        ["wep_profile"] = "SmallMetalHit",
+    },
+
+    ["Base.TirePump"] = {
+        ["wep_profile"] = "SmallMetalHit",
+    },
+
+    ["Base.Spatula"] = {
+        ["wep_profile"] = "SmallMetalHit",
+        ["swingSound"] = "ThinBatSwing",
+    },
+
+    ["Base.Stapler"] = {
+        ["wep_profile"] = "SmallMetalHit",
+    },
+
+    ["Base.TinOpener"] = {
+        ["wep_profile"] = "SmallMetalHit",
+        ["ConditionMax"] = "2",
+    },
+
+    ["Base.Tongs"] = {
+        ["wep_profile"] = "SmallMetalHit",
+        ["ConditionMax"] = "2",
+    },
+
+    ["Base.KitchenTongs"] = {
+        ["wep_profile"] = "SmallMetalHit",
+        ["ConditionMax"] = "2",
+    },
+
+    ["Base.HolePuncher"] = {
+        ["wep_profile"] = "SmallMetalHit",
+    },
+
 --[[
-
-    ["Base.Jack"] = {}, --metal rattle
-    ["Base.TirePump"] = {}, --metal rattle
-
-    ["Base.Spatula"] = {}, --metal rattle small
-    ["Base.Stapler"] = {}, --metal rattle small
-    ["Base.TinOpener"] = {}, --metal rattle small
-    ["Base.Tongs"] = {}, --metal rattle small
-    ["Base.KitchenTongs"] = {}, --small metal rattle
-
     ["Base.PlasticTray"] = {}, --plastic flat
 
     ["Base.Remote"] = {}, --plastic whack
     ["Base.CuttingBoardPlastic"] = {}, --plastic whack
     ["Base.DogChew"] = {}, --plastic whack
 
-    ["Base.HolePuncher"] = {}, --small metal
-
-    ["Base.Pipe"] = {}, --special? hollow plastic
     ["Base.Pillow"] = {}, --special
-    ["Base.Bell"] = {}, --special
     ["Base.CordlessPhone"] = {}, --special
 
     ["Base.SharpedStone"] = {}, --thud
