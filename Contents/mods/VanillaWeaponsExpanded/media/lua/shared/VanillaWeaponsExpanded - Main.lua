@@ -1086,6 +1086,24 @@ local VanillaWeaponsExpanded = {
 
 }
 
+--[[
+local function expandModels(listToUse)
+    ---@type ScriptManager
+    local SM = getScriptManager()
+
+    for id,vars in pairs(listToUse) do
+        local modelBase = vars["wep_modelBase"]
+        if modelBase then
+            ---@type ModelScript
+            local modelScript = SM:getModelScript(modelBase)
+
+            modelScript:addAttachment()
+        end
+    end
+end
+expandModels(WeaponProfiles)
+expandModels(VanillaWeaponsExpanded)
+--]]
 
 local function expandWeapons()
     local SM = getScriptManager()
