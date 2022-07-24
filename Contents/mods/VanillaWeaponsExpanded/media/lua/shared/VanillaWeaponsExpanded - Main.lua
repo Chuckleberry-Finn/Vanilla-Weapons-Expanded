@@ -71,6 +71,40 @@ local WeaponProfiles = {
         ["CritDmgMultiplier"] = "2",
     },
 
+    ["MetalCan"] = {
+        ["Type"] = "Weapon",
+        ["MaxRange"] = "1",
+        ["MinAngle"] = "0",
+        ["MinimumSwingTime"] = "2",
+        ["KnockBackOnNoDeath"] = "FALSE",
+        ["SwingAmountBeforeImpact"] = "0.02",
+        ["Categories"] = "Improvised;SmallBlunt",
+        ["SplatNumber"] = "1",
+        ["PushBackMod"] = "0.3",
+        ["MinDamage"] = "0.1",
+        ["MaxDamage"] = "0.2",
+        ["SubCategory"] = "Swinging",
+        ["ConditionMax"] = "1",
+        ["ConditionLowerChanceOneIn"] = "2",
+        ["MaxHitCount"] = "2",
+        ["DoorDamage"] = "0",
+        ["SwingAnim"] = "Bat",
+        ["MinRange"] = "0.2",
+        ["SwingTime"] = "2",
+        ["KnockdownMod"] = "0",
+        ["SplatBloodOnNoDeath"] = "FALSE",
+        ["RunAnim"] = "Run_Weapon2",
+        ["IdleAnim"] = "Idle_Weapon2",
+        ["BreakSound"] = "CanBreak",
+        ["HitFloorSound"] = "CanCrush",
+        ["ImpactSound"] = "CanCrush",
+        ["HitSound"] = "CanCrush",
+        ["TreeDamage"] = "0",
+        ["EnduranceMod"] = "0.5",
+        ["CriticalChance"] = "10",
+        ["CritDmgMultiplier"] = "2",
+    },
+
     ["PlasticBottle"] = {
         ["Type"] = "Weapon",
         ["MaxRange"] = "1",
@@ -762,12 +796,32 @@ local VanillaWeaponsExpanded = {
         ["CritDmgMultiplier"] = "3",
     },
 
+    ["Base.BeerCanEmpty"] = {
+        ["wep_profile"] = "MetalCan",
+        ["WeaponSprite"] = "BeerCanEmptyWorld",
+    },
+
+    ["Base.TinCanEmpty"] = {
+        ["wep_profile"] = "MetalCan",
+        ["WeaponSprite"] = "TinCanEmpty_Ground",
+    },
+
+    ["Base.Pop2Empty"] = {
+        ["wep_profile"] = "MetalCan",
+        ["WeaponSprite"] = "PopCanRedWorld",
+    },
+
+    ["Base.Pop3Empty"] = {
+        ["wep_profile"] = "MetalCan",
+        ["WeaponSprite"] = "PopCanFizzWorld",
+    },
+
+    ["Base.PopEmpty"] = {
+        ["wep_profile"] = "MetalCan",
+        ["WeaponSprite"] = "PopCanDietWorld",
+    },
+
 --[[
-    ["Base.BeerCanEmpty"] = {}, --can
-    ["Base.TinCanEmpty"] = {}, --can
-    ["Base.Pop2Empty"] = {}, --can
-    ["Base.Pop3Empty"] = {}, --can
-    ["Base.PopEmpty"] = {}, --can
 
     ["Base.Jack"] = {}, --metal rattle
     ["Base.TirePump"] = {}, --metal rattle
