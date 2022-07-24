@@ -235,6 +235,7 @@ local WeaponProfiles = {
         ["HitFloorSound"] = "FlatPlasticHit",
         ["ImpactSound"] = "FlatPlasticHit",
         ["HitSound"] = "FlatPlasticHit",
+        ["SwingSound"] = "PlankSwing",
         ["TreeDamage"] = "0",
         ["EnduranceMod"] = "0.5",
         ["CriticalChance"] = "0",
