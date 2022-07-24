@@ -984,59 +984,101 @@ local VanillaWeaponsExpanded = {
 
     ["Base.Jack"] = {
         ["wep_profile"] = "SmallMetalHit",
+        ["WeaponSprite"] = "CarJack",
     },
 
     ["Base.TirePump"] = {
         ["wep_profile"] = "SmallMetalHit",
+        ["WeaponSprite"] = "TirePump",
     },
 
     ["Base.Spatula"] = {
         ["wep_profile"] = "SmallMetalHit",
         ["swingSound"] = "ThinBatSwing",
+        ["WeaponSprite"] = "Spatula_Ground",
     },
 
     ["Base.Stapler"] = {
         ["wep_profile"] = "SmallMetalHit",
+        ["WeaponSprite"] = "Stapler_Ground",
     },
 
     ["Base.TinOpener"] = {
         ["wep_profile"] = "SmallMetalHit",
         ["ConditionMax"] = "2",
+        ["WeaponSprite"] = "CanOpenerGround",
     },
 
     ["Base.Tongs"] = {
         ["wep_profile"] = "SmallMetalHit",
         ["ConditionMax"] = "2",
+        ["WeaponSprite"] = "Tongs",
     },
 
-    ["Base.KitchenTongs"] = {
-        ["wep_profile"] = "SmallMetalHit",
-        ["ConditionMax"] = "2",
-    },
 
     ["Base.HolePuncher"] = {
         ["wep_profile"] = "SmallMetalHit",
+        ["WeaponSprite"] = "HolePuncher_Ground",
     },
 
     ["Base.CordlessPhone"] = {
         ["wep_profile"] = "SmallMetalHit",
+        ["WeaponSprite"] = "CordlessPhone",
     },
 
---[[
-    ["Base.PlasticTray"] = {}, --plastic flat
-    ["Base.CuttingBoardPlastic"] = {}, --plastic whack
+    ["Base.Remote"] = {
+        ["wep_profile"] = "SmallItem",
+        ["WeaponSprite"] = "Remote",
+    },
 
-    ["Base.Remote"] = {}, --plastic whack
-    ["Base.DogChew"] = {}, --plastic whack
+    ["Base.DogChew"] = {
+        ["wep_profile"] = "SmallItem",
+        ["WeaponSprite"] = "DogChewToy",
+    },
 
-    ["Base.Pillow"] = {}, --special
+    ["Base.SharpedStone"] = {
+        ["wep_profile"] = "SmallItem",
+        ["ConditionMax"] = "20",
+        ["MinDamage"] = "0.2",
+        ["MaxDamage"] = "0.3",
+        ["WeaponSprite"] = "ChippedStone",
+    },
 
+    ["Base.Stone"] = {
+        ["wep_profile"] = "SmallItem",
+        ["ConditionMax"] = "20",
+        ["WeaponSprite"] = "Stone",
+    },
 
-    ["Base.SharpedStone"] = {}, --thud
-    ["Base.Stone"] = {}, --thud
+    ["Base.Pillow"] = {
+        ["wep_profile"] = "SmallItem",
+        ["ConditionMax"] = "5",
+        ["MinDamage"] = "0",
+        ["MaxDamage"] = "0",
+        ["WeaponSprite"] = "Pillow",
+        ["BreakSound"] = "ClothesRipping",
+        ["HitFloorSound"] = "SoftHit",
+        ["ImpactSound"] = "SoftHit",
+        ["HitSound"] = "SoftHit",
+        ["KnockBackOnNoDeath"] = "TRUE",
+    },
 
-    ["Base.CuttingBoardWooden"] = {}, --wood flat hit
---]]
+    ["Base.PlasticTray"] = {
+        ["wep_profile"] = "FlatPlasticItem",
+        ["WeaponSprite"] = "PlasticTray_Ground",
+    },
+
+    ["Base.CuttingBoardPlastic"] = {
+        ["wep_profile"] = "FlatPlasticItem",
+        ["ConditionMax"] = "3",
+        ["WeaponSprite"] = "CuttingBoard_Plastic_Ground",
+    },
+
+    ["Base.CuttingBoardWooden"] = {
+        ["wep_profile"] = "FlatPlasticItem",
+        ["WeaponSprite"] = "CuttingBoard_Wood_Ground",
+    },
+    
 }
 
 
