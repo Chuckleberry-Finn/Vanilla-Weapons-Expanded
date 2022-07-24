@@ -1077,9 +1077,13 @@ local VanillaWeaponsExpanded = {
 
     ["Base.CuttingBoardWooden"] = {
         ["wep_profile"] = "FlatPlasticItem",
+        ["BreakSound"] = "PlankBreak",
+        ["DoorHitSound"] = "PlankHit",
+        ["HitSound"] = "PlankHit",
+        ["HitFloorSound"] = "PlankHit",
         ["WeaponSprite"] = "CuttingBoard_Wood_Ground",
     },
-    
+
 }
 
 
