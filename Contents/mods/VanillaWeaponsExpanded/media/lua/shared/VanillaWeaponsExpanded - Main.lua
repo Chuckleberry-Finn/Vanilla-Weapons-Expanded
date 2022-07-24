@@ -259,6 +259,31 @@ local VanillaWeaponsExpanded = {
         ["WeaponSprite"] = "CookingPot",
     },
 
+    ["Base.BakingPan"] = {
+        ["wep_profile"] = "FlatMetal",
+        ["WeaponSprite"] = "BakingPan",
+    },
+
+    ["Base.BakingTray"] = {
+        ["wep_profile"] = "FlatMetal",
+        ["WeaponSprite"] = "BakingTray",
+    },
+
+    ["Base.MuffinTray"] = {
+        ["wep_profile"] = "FlatMetal",
+        ["WeaponSprite"] = "MuffinTray",
+    },
+
+    ["Base.RoastingPan"] = {
+        ["wep_profile"] = "FlatMetal",
+        ["WeaponSprite"] = "RoastingPan",
+    },
+
+    ["Base.WaterDish"] = {
+        ["wep_profile"] = "FlatMetal",
+        ["WeaponSprite"] = "WaterDish",
+    },
+
     ["Base.ModernCarMuffler1"] = {
         ["wep_profile"] = "FlatMetal",
         ["WeaponSprite"] = "Muffler",
@@ -753,12 +778,6 @@ local VanillaWeaponsExpanded = {
     ["Base.Tongs"] = {}, --metal rattle small
     ["Base.KitchenTongs"] = {}, --small metal rattle
 
-    ["Base.BakingPan"] = {}, --metal whack
-    ["Base.BakingTray"] = {}, --metal whack
-    ["Base.MuffinTray"] = {}, --metal whack
-    ["Base.RoastingPan"] = {}, --metal whack
-    ["Base.WaterDish"] = {}, --metal whack
-
     ["Base.PlasticTray"] = {}, --plastic flat
 
     ["Base.Remote"] = {}, --plastic whack
@@ -770,7 +789,6 @@ local VanillaWeaponsExpanded = {
     ["Base.Pipe"] = {}, --special? hollow plastic
     ["Base.Pillow"] = {}, --special
     ["Base.Bell"] = {}, --special
-    ["Base.Belt"] = {}, --special
     ["Base.CordlessPhone"] = {}, --special
 
     ["Base.SharpedStone"] = {}, --thud
