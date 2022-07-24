@@ -1091,8 +1091,9 @@ local function expandWeapons()
     local SM = getScriptManager()
     local allItems = SM:getAllItems()
 
-    local expandedWeaponsText
-    local leftOverNormalsText
+    local expandedWeaponsText = ""
+    local ewtNum = 0
+    local leftOverNormalsText = ""
 
     --string.find(subject string, pattern string,
 
@@ -1117,8 +1118,8 @@ local function expandWeapons()
                     itemScript:DoParam(param.." = "..data)
                 end
             end
-            expandedWeaponsText = expandedWeaponsText or "   Weaponizes/Adds Sounds to the following items: "
             expandedWeaponsText = expandedWeaponsText..itemScript:getFullName()..", "
+            ewtNum = ewtNum+1
         else
             if tostring(itemScript:getType()) == "Normal" then
                 leftOverNormalsText = leftOverNormalsText or "   Normal Types Remaining: "
@@ -1128,10 +1129,7 @@ local function expandWeapons()
     end
 
     if getDebug() then
-        local debugText = "Vanilla Weapons Expanded:\n"
-        if expandedWeaponsText then debugText = debugText..expandedWeaponsText.."\n\n" end
-        if leftOverNormalsText then debugText = debugText..leftOverNormalsText.."\n" end
-        print(debugText)
+        print("Vanilla Weapons Expanded:\n   Weaponizes/Adds Sounds to "..ewtNum.." items: "..expandedWeaponsText.."\n\n   Normal Types Remaining: "..leftOverNormalsText)
     end
 end
 expandWeapons()
