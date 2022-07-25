@@ -249,7 +249,7 @@ local WeaponProfiles = {
         ["MinimumSwingTime"] = "2",
         ["KnockBackOnNoDeath"] = "FALSE",
         ["SwingAmountBeforeImpact"] = "0.02",
-        ["ConditionLowerChanceOneIn"] = "1",
+        ["ConditionLowerChanceOneIn"] = "2",
         ["SplatNumber"] = "1",
         ["PushBackMod"] = "0.3",
         ["SubCategory"] = "Swinging",
@@ -267,7 +267,7 @@ local WeaponProfiles = {
         ["HitSound"] = "smolerBatHit",
         ["swingSound"] = "ThinBatSwing",
         ["TreeDamage"] = "0",
-        ["CriticalChance"] = "0",
+        ["CriticalChance"] = "4",
         ["MinDamage"] = "0.2",
         ["MaxDamage"] = "0.3",
         ["BaseSpeed"] = "1.3",
@@ -787,25 +787,25 @@ local VanillaWeaponsExpanded = {
 
     ["Base.UmbrellaBlack"] = {
         ["wep_profile"] = "ThinWood",
-        ["WeaponSprite"] = "Umbrella_Closed_Black",
+        ["WeaponSprite"] = "UmbrellaBlack",
         ["AttachmentType"] = "Shovel",
     },
 
     ["Base.UmbrellaBlue"] = {
         ["wep_profile"] = "ThinWood",
-        ["WeaponSprite"] = "Umbrella_Closed_Blue",
+        ["WeaponSprite"] = "UmbrellaBlue",
         ["AttachmentType"] = "Shovel",
     },
 
     ["Base.UmbrellaRed"] = {
         ["wep_profile"] = "ThinWood",
-        ["WeaponSprite"] = "Umbrella_Closed_Red",
+        ["WeaponSprite"] = "UmbrellaRed",
         ["AttachmentType"] = "Shovel",
     },
 
     ["Base.UmbrellaWhite"] = {
         ["wep_profile"] = "ThinWood",
-        ["WeaponSprite"] = "Umbrella_Closed_White",
+        ["WeaponSprite"] = "UmbrellaWhite",
         ["AttachmentType"] = "Shovel",
     },
 
