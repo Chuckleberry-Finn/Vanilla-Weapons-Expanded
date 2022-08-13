@@ -625,7 +625,7 @@ local VanillaWeaponsExpanded = {
 
     ["Base.LugWrench"] = {
         ["MaxRange"] = "1",
-        ["WeaponSprite"] = "Spanner",
+        ["WeaponSprite"] = "LugWrench",
         ["MinAngle"] = "0",
         ["Type"] = "Weapon",
         ["MinimumSwingTime"] = "3",
