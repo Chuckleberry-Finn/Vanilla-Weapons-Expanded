@@ -3,15 +3,14 @@ id=2357915214
 title=Vanilla Weapons Expanded
 description=[h3]More vanilla items are improvised weapons![/h3]
 description=
-description=[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
+description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://www.patreon.com/bePatron?u=17239488][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/patreon.png[/img][/url]
 description=
-description=[url=https://ko-fi.com/chuckleberryfinn][img]https://i.imgur.com/GxZ38nz.png[/img] [b]Consider supporting Chuck![/b][/url] [url=https://www.patreon.com/bePatron?u=17239488][img]https://raw.githubusercontent.com/ChuckTheSheep/Vanilla-Weapons-Expanded/main/Contents/mods/VanillaWeaponsExpanded/patreon/Patreon%20Logo.png[/img][/url]
 description=
 description=[h2]WARNING: Any other mod that modifies the below listed weapons/items MAY have a conflict.[/h2]
 description=[h3]ALSO: You will have to create a new game after installing/uninstalling this mod due to item's 'type' value being changed.[/h3]
 description=
 description=Weaponizes/Adds Sounds to 86 items: Base.Bowl, Base.UmbrellaBlack, Base.UmbrellaRed, Base.GrillBrush, Base.WineEmpty2, Base.Tweezers, Base.Teacup, Base.Tongs, Base.Pop3Empty, Base.PlasticTray, Base.MugRed, Base.PopBottleEmpty, Base.TreeBranch, Base.Corkscrew, Base.Stapler, Base.Plunger, Base.Chopsticks, Base.Dart, Base.Saw, Base.BeerEmpty, Base.LugWrench, Base.CordlessPhone, Base.Mugl, Base.PercedWood, Base.PlateFancy, Base.Remote, Base.Pipe, Base.CuttingBoardPlastic, Base.TirePump, Base.MuffinTray, Base.UmbrellaWhite, Base.DogChew, Base.PaintbucketEmpty, Base.MugWhite, Base.BucketEmpty, Base.TinCanEmpty, Base.TinOpener, Base.HolePuncher, Base.MugSpiffo, Base.Spatula, Base.PopEmpty, Base.Bell, Base.WaterDish, Base.CarvingFork, Base.Handle, Base.Pot, Base.RoastingPan, Base.GlassWine, Base.EmptyJar, Base.ModernCarMuffler1, Base.ModernCarMuffler2, Base.ModernCarMuffler3, Base.WineEmpty, Base.PlateBlue, Base.GlassTumbler, Base.UmbrellaBlue, Base.WoodenStick, Base.Pop2Empty, Base.BakingPan, Base.Jack, Base.Stone, Base.WhiskeyEmpty, Base.WaterBottleEmpty, Base.PlasticCup, Base.BleachEmpty, Base.SharpedStone, Base.CuttingBoardWooden, Base.Kettle, Base.PlateOrange, Base.Toothbrush, Base.Plate, Base.Mop, Base.BakingTray, Base.GardenSaw, Base.Pillow, Base.BeerCanEmpty, Base.KnittingNeedles, Base.EmptyPetrolCan, Base.NormalCarMuffler2, Base.NormalCarMuffler3, Base.NormalCarMuffler1, camping.TentPeg, farming.RemouladeEmpty, farming.WateredCan, farming.GardeningSprayEmpty, farming.MayonnaiseEmpty,
 description=
-description=Tags:B41,Textures,Models,Weapons,Tweak,Realistic
+description=[h3]Copyright 2023 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account named Chuckleberry Finn.[/h3]
 tags=Build 41;Realistic;Silly/Fun;Weapons
 visibility=public
