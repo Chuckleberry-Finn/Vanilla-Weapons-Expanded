@@ -834,6 +834,8 @@ local main = {
             ["wep_profile"] = "ThinWood",
             ["WeaponSprite"] = "Mop",
             ["AttachmentType"] = "Shovel",
+            ["TwoHandWeapon"] = "TRUE",
+
         },
 
         ["Base.UmbrellaBlack"] = {
