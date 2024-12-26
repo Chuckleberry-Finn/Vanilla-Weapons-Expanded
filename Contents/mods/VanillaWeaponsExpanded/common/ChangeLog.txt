@@ -1,3 +1,6 @@
 [ 12/25/24 ]
 - B4 Update.
+
+WARNING: As always with this mod, a fresh game is recommended for best results.
+Items that get their type changed are deleted upon mod deactivation/activation.
 [ ------ ]
