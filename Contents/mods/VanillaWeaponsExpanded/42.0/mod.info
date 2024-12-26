@@ -1,0 +1,8 @@
+name=Vanilla Weapons Expanded
+id=VanillaWeaponsExpanded
+description=More items can now be used as improvised weapons. Please see workshop page for more information/warnings/change log.
+poster=poster.png
+author=Chuckleberry Finn
+icon=icon.png
+versionMin=42.0
+require=\ChuckleberryFinnAlertSystem,\errorMagnifier,
