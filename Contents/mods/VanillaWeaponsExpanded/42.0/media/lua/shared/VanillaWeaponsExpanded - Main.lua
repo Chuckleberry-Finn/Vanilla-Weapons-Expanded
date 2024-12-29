@@ -426,6 +426,18 @@ local main = {
 
     VanillaWeaponsExpanded = {
 
+        ["Base.Scythe"] = {
+            ["wep_profile"] = "ThinWood",
+            ["TwoHandWeapon"] = "TRUE",
+            ["WeaponSprite"] = "Scythe",
+        },
+
+        ["Base.ScytheForged"] = {
+            ["wep_profile"] = "ThinWood",
+            ["TwoHandWeapon"] = "TRUE",
+            ["WeaponSprite"] = "ScytheForged",
+        },
+
         ["Base.ClayBrickUnfired"] = {
             ["wep_profile"] = "stoneBrick",
             ["WeaponSprite"] = "ClayBrickUnfired",
