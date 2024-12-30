@@ -10,7 +10,8 @@ description=
 description=[h2]The items currently in this mod are not balanced/properly tested/complete.[/h2]
 description=[h2]Expect frequent updates. Expect unbalanced and broken weapons.[/h2]
 description=[h3]If you run into issues or have suggestions visit the Modding Community Discord and join the Vanilla Weapons Expanded Project Post.[/h3]
-description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
+description=
+description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
 description=
 description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi_big.png[/img][/url]
 description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/newRequired.png[/img][/url]
