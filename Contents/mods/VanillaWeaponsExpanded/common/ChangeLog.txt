@@ -4,3 +4,11 @@
 WARNING: As always with this mod, a fresh game is recommended for best results.
 Items that get their type changed are deleted upon mod deactivation/activation.
 [ ------ ]
+
+[ 12/30/24 ]
+- New Poster
+[ ------ ]
+
+[ 12/30/24 #2 ]
+- Removed gun magazines as weapon candidates.
+[ ------ ]
