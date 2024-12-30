@@ -39,8 +39,10 @@ local function expandWeapons()
 
             ---Just use the static model if a WeaponSprite isn't around cause I'm lazy
             if (not expandedWeaponInfo["WeaponSprite"]) then
-                local model = itemScript:getStaticModel()
-                itemScript:DoParam("WeaponSprite = "..model)
+                local model = itemScript:getStaticModel() or itemScript:getWorldStaticModel()
+                if model then
+                    itemScript:DoParam("WeaponSprite = "..model)
+                end
             end
 
             expandedWeaponsText = expandedWeaponsText..itemScript:getFullName()..", "
