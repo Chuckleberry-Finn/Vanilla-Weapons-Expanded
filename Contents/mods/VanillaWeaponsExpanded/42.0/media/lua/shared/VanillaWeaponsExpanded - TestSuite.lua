@@ -6,6 +6,7 @@ local testEquipRemove = ISBaseTimedAction:derive("testEquip")
 function testEquipRemove:isValid() return true end
 
 function testEquipRemove:perform()
+    if not self.item then return end
     self.character:getInventory():DoRemoveItem(self.item)
     ISBaseTimedAction.perform(self)
 end
@@ -76,10 +77,10 @@ function testSuite.testEquipAll()
         if expandedWeaponInfo then
 
             local item = instanceItem(iModuleDotType)
-            ISTimedActionQueue.add(testAddItem:new(player, item, 2))
-            ISTimedActionQueue.add(ISEquipWeaponAction:new(player, item, 2, true))
+            ISTimedActionQueue.add(testAddItem:new(player, item, 1))
+            ISTimedActionQueue.add(ISEquipWeaponAction:new(player, item, 1, true))
             --player:DoAttack(1)
-            --ISTimedActionQueue.add(ISUnequipAction:new(player, item, 15))
+            ISTimedActionQueue.add(ISUnequipAction:new(player, item, 1))
             ISTimedActionQueue.add(testEquipRemove:new(player, item))
         end
     end
