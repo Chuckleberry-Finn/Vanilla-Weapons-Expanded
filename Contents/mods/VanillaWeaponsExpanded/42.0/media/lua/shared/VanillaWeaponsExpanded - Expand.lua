@@ -20,10 +20,15 @@ local function expandWeapons()
         if expandedWeaponInfo then
             local weaponProfileID = expandedWeaponInfo["wep_profile"]
             if weaponProfileID then
-                for param,data in pairs(main.WeaponProfiles[weaponProfileID]) do
-                    if not expandedWeaponInfo[param] then
-                        itemScript:DoParam(param.." = "..data)
+                local wep_profile = main.WeaponProfiles[weaponProfileID]
+                if wep_profile then
+                    for param,data in pairs(wep_profile) do
+                        if not expandedWeaponInfo[param] then
+                            itemScript:DoParam(param.." = "..data)
+                        end
                     end
+                else
+                    print("WARN: "..iModuleDotType..",  wep_profile: ", weaponProfileID, " NOT FOUND?!")
                 end
             end
 
@@ -33,6 +38,9 @@ local function expandWeapons()
                 end
             end
             expandedWeaponsText = expandedWeaponsText..itemScript:getFullName()..", "
+
+            --main.VanillaWeaponsExpanded[iModuleDotType] = nil
+
             ewtNum = ewtNum+1
         else
             if tostring(itemScript:getType()) == "Normal" then
@@ -42,6 +50,8 @@ local function expandWeapons()
             end
         end
     end
+
+    --local itemsLeft = "items left: " for k,v in pairs(main.VanillaWeaponsExpanded) do itemsLeft = itemsLeft .. k ..", " end print(itemsLeft .. "\n")
 
     if getDebug() then
         print("Vanilla Weapons Expanded:\n   Weaponizes/Adds Sounds to "..ewtNum.." items: "..expandedWeaponsText.."\n\n   Normal Types Remaining: ("..ntr..") "..leftOverNormalsText)
