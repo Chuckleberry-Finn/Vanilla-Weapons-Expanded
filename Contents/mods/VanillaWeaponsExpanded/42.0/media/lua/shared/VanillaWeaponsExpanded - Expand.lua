@@ -15,7 +15,6 @@ local function expandWeapons()
         ---@type Item
         local itemScript = allItems:get(i)
         local iModuleDotType = itemScript:getFullName() -- module.Type
-
         local expandedWeaponInfo = main.VanillaWeaponsExpanded[iModuleDotType]
         if expandedWeaponInfo then
             local weaponProfileID = expandedWeaponInfo["wep_profile"]
