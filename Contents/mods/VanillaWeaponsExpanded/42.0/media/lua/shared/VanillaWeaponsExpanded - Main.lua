@@ -723,7 +723,7 @@ local main = {
 
         ["LongHeavy"] = {
             ["Type"] = "Weapon",
-            ["MaxRange"] = "1",
+            ["MaxRange"] = "1.7",
             ["MinAngle"] = "0",
             ["MinimumSwingTime"] = "2",
             ["KnockBackOnNoDeath"] = "FALSE",
@@ -844,6 +844,9 @@ local main = {
         ["Base.Scythe"] = {
             ["wep_profile"] = "LongHeavy",
             ["DamageCategory"] = "Slash",
+            ["SwingAnim"] = "Heavy",
+            ["SwingTime"] = "4",
+            ["MinimumSwingTime"] = "4",
             ["DamageMakeHole"] = "TRUE",
             ["TwoHandWeapon"] = "TRUE",
             ["WeaponSprite"] = "Scythe",
@@ -855,14 +858,17 @@ local main = {
             ["swingSound"] = "ThinBatSwing",
             ["DoorHitSound"] = "KatanaHit",
             ["Tags"] = "HasMetal;FullBlade",
-            ["Sharpness"] = "1.0",
-            ["AttachmentType"] = "Sword",
+            --["Sharpness"] = "1.0",
+            --["AttachmentType"] = "Sword",
             --["OnBreak"] = "OnBreak.Katana",
         },
 
         ["Base.ScytheForged"] = {
             ["wep_profile"] = "LongHeavy",
             ["DamageCategory"] = "Slash",
+            ["SwingAnim"] = "Heavy",
+            ["SwingTime"] = "4",
+            ["MinimumSwingTime"] = "4",
             ["DamageMakeHole"] = "TRUE",
             ["TwoHandWeapon"] = "TRUE",
             ["WeaponSprite"] = "ScytheForged",
@@ -874,8 +880,8 @@ local main = {
             ["swingSound"] = "ThinBatSwing",
             ["DoorHitSound"] = "KatanaHit",
             ["Tags"] = "HasMetal;FullBlade",
-            ["Sharpness"] = "1.0",
-            ["AttachmentType"] = "Sword",
+            --["Sharpness"] = "1.0",
+            --["AttachmentType"] = "Sword",
             --["OnBreak"] = "OnBreak.Katana",
         },
 
