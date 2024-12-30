@@ -1,20 +1,19 @@
 version=1
-id=2357915214
-title=Vanilla Weapons Expanded
-description=[h3]More vanilla items are improvised weapons![/h3]
+id=3395648868
+title=Vanilla Weapons Expanded+
+description=[h3]Vanilla Items Weapon Conversion![/h3]
+description=[i][b]Weaponizes/Adds Sounds to 554 items[/b][/i]
 description=
-description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi_big.png[/img][/url]
+description=[h2]Starting a New Game is REQUIRED if not HIGHLY recommended![/h2]
+description=This mod modifies item's "types" which causes the game to not load previously generated items. This means adding/removing the mod to an on-going game will result in found/loaded items being permanently deleted. Newly explored areas will generate items just fine.
+description=
+description=[h2]The items currently in this mod are not balanced/properly tested/complete.[/h2]
+description=[h2]Expect frequent updates. Expect unbalanced and broken weapons.[/h2]
+description=[h3]If you run into issues or have suggestions visit the Modding Community Discord and join the Vanilla Weapons Expanded Project Post.[/h3]
 description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
 description=
+description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi_big.png[/img][/url]
 description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/newRequired.png[/img][/url]
-description=
-description=[h2]WARNING: Any other mod that modifies the below listed weapons/items MAY have a conflict.[/h2]
-description=[h3]ALSO: You will have to create a new game after installing/uninstalling this mod due to item's 'type' value being changed.[/h3]
-description=
-[url=https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/bingo.png][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/readThrough.png[/img][/url]
-description=
-description=[h3]B41: Weaponizes/Adds Sounds to 86 items.[h3]
-description=[h3]B42: Weaponizes/Adds Sounds to 554 items.[h3]
 description=
 description=
 description=[img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/noModPacks.png[/img]
@@ -24,8 +23,8 @@ description=[quote][b]Mac/Linux:[/b] $User\Zomboid\console.txt[/quote]
 description=Upload this file [b]in entirety[/b] to [url=https://github.com/Chuckleberry-Finn/Vanilla-Weapons-Expanded]Github[/url] as an issue.
 description=Share the link in a comment below if it is urgent.
 description=
+description=[i]Additional Credits: Mopop, Ash, and members of the Modding Community Discord[/i]
 description=
-description=
-description=[h3]Copyright 2023 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account named Chuckleberry Finn.[/h3]
-tags=Build 41;Realistic;Silly/Fun;Weapons
+description=[h3]Copyright 2024 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account named Chuckleberry Finn.[/h3]
+tags=Build 42;Realistic;Silly/Fun;Weapons
 visibility=public
