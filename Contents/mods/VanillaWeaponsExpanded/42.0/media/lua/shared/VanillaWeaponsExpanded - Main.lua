@@ -854,6 +854,10 @@ local main = {
             ["HitSound"] = "smolerBatHit",
             ["swingSound"] = "ThinBatSwing",
             ["DoorHitSound"] = "KatanaHit",
+            ["Tags"] = "HasMetal;FullBlade",
+            ["Sharpness"] = "1.0",
+            ["AttachmentType"] = "Sword",
+            --["OnBreak"] = "OnBreak.Katana",
         },
 
         ["Base.ScytheForged"] = {
@@ -869,6 +873,10 @@ local main = {
             ["HitSound"] = "smolerBatHit",
             ["swingSound"] = "ThinBatSwing",
             ["DoorHitSound"] = "KatanaHit",
+            ["Tags"] = "HasMetal;FullBlade",
+            ["Sharpness"] = "1.0",
+            ["AttachmentType"] = "Sword",
+            --["OnBreak"] = "OnBreak.Katana",
         },
 
         ["Base.ClayBrickUnfired"] = {
@@ -1562,6 +1570,7 @@ local main = {
         ["Base.HandScytheBlade"] = {
             ["wep_profile"] = "SmallStab",
             ["WeaponSprite"] = "HandScytheBlade",
+            ["Sharpness"] = "1.0",
         },
 
         ["Base.HandDrill"] = {
@@ -2542,6 +2551,7 @@ local main = {
         ["Base.ScytheBlade"] = {
             ["wep_profile"] = "MediumSlash",
             ["WeaponSprite"] = "ScytheBlade",
+            ["Sharpness"] = "1.0",
         },
 
         ["Base.RakeHead"] = {
