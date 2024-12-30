@@ -1692,26 +1692,6 @@ local main = {
             ["WeaponSprite"] = "Awl_DryCrack",
         },
 
-        ["Base.9mmClip"] = {
-            ["wep_profile"] = "SmallStab",
-            ["WeaponSprite"] = "9mmClip",
-        },
-
-        ["Base.556Clip"] = {
-            ["wep_profile"] = "SmallStab",
-            ["WeaponSprite"] = "556Clip",
-        },
-
-        ["Base.45Clip"] = {
-            ["wep_profile"] = "SmallStab",
-            ["WeaponSprite"] = "45Clip",
-        },
-
-        ["Base.44Clip"] = {
-            ["wep_profile"] = "SmallStab",
-            ["WeaponSprite"] = "44Clip",
-        },
-
         ["Base.SutureNeedle"] = {
             ["wep_profile"] = "SmallStab",
             ["WeaponSprite"] = "SutureNeedle",
@@ -1860,11 +1840,6 @@ local main = {
         ["Base.MacheteBlade_NoTang"] = {
             ["wep_profile"] = "SmallStab",
             ["WeaponSprite"] = "MacheteBlade_NoTang",
-        },
-
-        ["Base.M14Clip"] = {
-            ["wep_profile"] = "SmallStab",
-            ["WeaponSprite"] = "M14Clip",
         },
 
         ["Base.LargeKnifeBlade"] = {
