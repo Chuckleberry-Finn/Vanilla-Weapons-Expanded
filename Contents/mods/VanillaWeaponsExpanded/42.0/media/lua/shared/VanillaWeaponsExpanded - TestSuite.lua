@@ -2,50 +2,45 @@ local main = require("VanillaWeaponsExpanded - Main.lua")
 
 require "TimedActions/ISBaseTimedAction"
 
-local testEquipRemove = ISBaseTimedAction:derive("testEquip")
-function testEquipRemove:isValid() return true end
+local testPause = ISBaseTimedAction:derive("testPause")
+function testPause:isValid() return true end
 
-function testEquipRemove:perform()
+local function testAction(action, character, item, maxTime)
+    local o = {}
+    setmetatable(o, action)
+    action.__index = action
+    o.character = character
+    o.item = item
+    o.maxTime = maxTime or 1
+    return o
+end
+
+function testPause:perform()
     if not self.item then return end
     self.character:getInventory():DoRemoveItem(self.item)
     ISBaseTimedAction.perform(self)
 end
+function testPause:isValid() return true end
+function testPause:new(character, item, maxTime) return testAction(self, character, item, maxTime) end
 
-function testEquipRemove:new(character, item, maxTime)
-    local o = {}
-    setmetatable(o, self)
-    self.__index = self
-    o.character = character
-    o.item = item
-    o.maxTime = maxTime or 1
-    o.stopOnWalk = true
-    o.stopOnRun = true
-    o.stopOnAim = true
-    o.caloriesModifier = 1
-    return o
+
+local testEquipRemove = ISBaseTimedAction:derive("testEquipRemove")
+function testEquipRemove:isValid() return true end
+
+function testEquipRemove:perform()
+    self.character:getInventory():DoRemoveItem(self.item)
+    ISBaseTimedAction.perform(self)
 end
+function testEquipRemove:new(character, item, maxTime) return testAction(self, character, item, maxTime) end
 
-local testAddItem = ISBaseTimedAction:derive("testSpawnItem")
+
+local testAddItem = ISBaseTimedAction:derive("testAddItem")
 function testAddItem:isValid() return true end
-
 function testAddItem:perform()
     self.character:getInventory():AddItem(self.item)
     ISBaseTimedAction.perform(self)
 end
-
-function testAddItem:new(character, item, maxTime)
-    local o = {}
-    setmetatable(o, self)
-    self.__index = self
-    o.character = character
-    o.item = item
-    o.maxTime = maxTime or 1
-    o.stopOnWalk = true
-    o.stopOnRun = true
-    o.stopOnAim = true
-    o.caloriesModifier = 1
-    return o
-end
+function testAddItem:new(character, item, maxTime) return testAction(self, character, item, maxTime) end
 
 --[[
 require("VanillaWeaponsExpanded - TestSuite").testEquipAll()
@@ -77,10 +72,11 @@ function testSuite.testEquipAll()
         if expandedWeaponInfo then
 
             local item = instanceItem(iModuleDotType)
-            ISTimedActionQueue.add(testAddItem:new(player, item, 1))
-            ISTimedActionQueue.add(ISEquipWeaponAction:new(player, item, 1, true))
+            ISTimedActionQueue.add(testAddItem:new(player, item, 2))
+            ISTimedActionQueue.add(ISEquipWeaponAction:new(player, item, 2, true))
             --player:DoAttack(1)
-            ISTimedActionQueue.add(ISUnequipAction:new(player, item, 1))
+            ISTimedActionQueue.add(testPause:new(player, item, 10))
+            ISTimedActionQueue.add(ISUnequipAction:new(player, item, 2))
             ISTimedActionQueue.add(testEquipRemove:new(player, item))
         end
     end
