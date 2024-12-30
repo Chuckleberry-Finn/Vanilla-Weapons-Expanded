@@ -36,6 +36,13 @@ local function expandWeapons()
                     itemScript:DoParam(param.." = "..data)
                 end
             end
+
+            ---Just use the static model if a WeaponSprite isn't around cause I'm lazy
+            if (not expandedWeaponInfo["WeaponSprite"]) then
+                local model = itemScript:getStaticModel()
+                itemScript:DoParam("WeaponSprite = "..model)
+            end
+
             expandedWeaponsText = expandedWeaponsText..itemScript:getFullName()..", "
 
             --main.VanillaWeaponsExpanded[iModuleDotType] = nil
