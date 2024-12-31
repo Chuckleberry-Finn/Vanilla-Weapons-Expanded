@@ -1,6 +1,6 @@
 version=1
 id=3395648868
-title=Vanilla Weapons Expanded+
+title=[Very Unstable - Testers Welcomed] Vanilla Weapons Expanded+
 description=[h3]Vanilla Items Weapon Conversion![/h3]
 description=[i][b]Weaponizes/Adds Sounds to 554 items[/b][/i]
 description=
