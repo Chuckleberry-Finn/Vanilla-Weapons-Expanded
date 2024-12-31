@@ -12,3 +12,9 @@ Items that get their type changed are deleted upon mod deactivation/activation.
 [ 12/30/24 #2 ]
 - Removed gun magazines as weapon candidates.
 [ ------ ]
+
+[ 12/30/24 ]
+- Refactored models to rely on Static/WorldStatic if no WeaponSprite is provided.
+- Added test suite module - to use with in-line command tool in debug.
+- Various Tweaks.
+[ ------ ]
