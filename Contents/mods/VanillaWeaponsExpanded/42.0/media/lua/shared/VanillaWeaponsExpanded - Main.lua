@@ -968,64 +968,18 @@ local main = {
             ["wep_profile"] = "FlatMetal",
         },
 
-        ["Base.ModernCarMuffler1"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.ModernCarMuffler2"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.ModernCarMuffler3"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.OldCarMuffler1"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.OldCarMuffler2"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.OldCarMuffler3"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.NormalCarMuffler1"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.NormalCarMuffler2"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.NormalCarMuffler3"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
         ["Base.EmptyJar"] = {
             ["wep_profile"] = "CeramicOrGlass",
         },
 
-
-
-
-
-
         ["Base.BeerEmpty"] = {
             ["wep_profile"] = "CeramicOrGlass",
             ["Icon"] = "BeerBottle",
-
         },
-
-
 
         ["Base.Bowl"] = {
             ["wep_profile"] = "CeramicOrGlass",
         },
-
-
 
         ["Base.Mugl"] = {
             ["wep_profile"] = "CeramicOrGlass",
@@ -1038,7 +992,6 @@ local main = {
         ["Base.MugWhite"] = {
             ["wep_profile"] = "CeramicOrGlass",
         },
-
 
         ["Base.Plate"] = {
             ["wep_profile"] = "CeramicOrGlass",
@@ -3166,6 +3119,61 @@ local main = {
 
 
         --CAR STUFF
+
+        ["Base.ModernCarMuffler1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.ModernCarMuffler2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.ModernCarMuffler3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.OldCarMuffler1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.OldCarMuffler2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.OldCarMuffler3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.NormalCarMuffler1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.NormalCarMuffler2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.NormalCarMuffler3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
         ["Base.FrontWindow3"] = {
             ["ConditionMax"] = "100",
             ["ConditionLossFactor"] = "20",

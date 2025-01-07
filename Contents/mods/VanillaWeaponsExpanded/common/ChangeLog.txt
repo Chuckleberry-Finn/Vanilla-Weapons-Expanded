@@ -22,3 +22,7 @@ Items that get their type changed are deleted upon mod deactivation/activation.
 [ 1/6/25 ]
 - Fixed issues with car parts receiving significantly lowered condition.
 [ ------ ]
+
+[ 1/6/25 #2 ]
+- Forgot to apply the fix to mufflers.
+[ ------ ]
