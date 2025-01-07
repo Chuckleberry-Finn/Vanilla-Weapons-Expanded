@@ -256,8 +256,7 @@ local main = {
             ["MinDamage"] = "0.1",
             ["MaxDamage"] = "0.2",
             ["SubCategory"] = "Swinging",
-            ["ConditionMax"] = "100",
-            ["ConditionLossFactor"] = "20",
+            ["ConditionMax"] = "4",
             ["ConditionLowerChanceOneIn"] = "10",
             ["MaxHitCount"] = "1",
             ["DoorDamage"] = "0",
@@ -736,7 +735,6 @@ local main = {
             ["SubCategory"] = "Swinging",
             ["HitAngleMod"] = "-30",
             ["ConditionMax"] = "100",
-            ["ConditionLossFactor"] = "20",
             ["ConditionLowerChanceOneIn"] = "10",
             ["MaxHitCount"] = "1",
             ["DoorDamage"] = "0",
@@ -2207,17 +2205,6 @@ local main = {
             ["wep_profile"] = "PlasticBottle",
         },
 
-        ["Base.BigGasTank3"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.BigGasTank2"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.BigGasTank1"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
 --[[ -- need funny noise
         ["Base.TrapMouse"] = {
             ["wep_profile"] = "MouseTrapSnap",
@@ -2424,18 +2411,6 @@ local main = {
             ["wep_profile"] = "HollowMetal",
         },
 
-        ["Base.SmallGasTank3"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.SmallGasTank2"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
-        ["Base.SmallGasTank1"] = {
-            ["wep_profile"] = "HollowMetal",
-        },
-
         ["Base.Harmonica"] = {
             ["wep_profile"] = "SmallItem",
         },
@@ -2617,18 +2592,6 @@ local main = {
         },
 
         ["Base.Gin"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.FrontWindow3"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.FrontWindow2"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.FrontWindow1"] = {
             ["wep_profile"] = "CeramicOrGlass",
         },
 
@@ -2936,30 +2899,6 @@ local main = {
             ["wep_profile"] = "CeramicOrGlass",
         },
 
-        ["Base.RearWindshield3"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.RearWindshield2"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.RearWindshield1"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.RearWindow3"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.RearWindow2"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.RearWindow1"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
         ["Base.Port"] = {
             ["wep_profile"] = "CeramicOrGlass",
         },
@@ -3193,59 +3132,11 @@ local main = {
             ["wep_profile"] = "DryCrack",
         },
 
-        ["Base.FrontCarDoor3"] = {
-            ["wep_profile"] = "BigFlatMetal",
-        },
-
-        ["Base.FrontCarDoor2"] = {
-            ["wep_profile"] = "BigFlatMetal",
-        },
-
-        ["Base.FrontCarDoor1"] = {
-            ["wep_profile"] = "BigFlatMetal",
-        },
-
-        ["Base.EngineDoor3"] = {
-            ["wep_profile"] = "BigFlatMetal",
-        },
-
-        ["Base.EngineDoor2"] = {
-            ["wep_profile"] = "BigFlatMetal",
-        },
-
-        ["Base.EngineDoor1"] = {
-            ["wep_profile"] = "BigFlatMetal",
-        },
-
         ["Base.StoneWheel"] = {
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.SteelIngotMold"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.RearCarDoorDouble3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.RearCarDoorDouble2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.RearCarDoorDouble1"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.RearCarDoor3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.RearCarDoor2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.RearCarDoor1"] = {
             ["wep_profile"] = "2HandHeavy",
         },
 
@@ -3257,82 +3148,6 @@ local main = {
             ["wep_profile"] = "2HandHeavy",
         },
 
-        ["Base.PotForged"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalTire3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalTire2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalTire1"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalGasTank3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalGasTank2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalGasTank1"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalCarSeat3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalCarSeat2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalCarSeat1"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalBrake3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalBrake2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.NormalBrake1"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.ModernTire3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.ModernTire2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.ModernTire1"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.ModernBrake3"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.ModernBrake2"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
-        ["Base.ModernBrake1"] = {
-            ["wep_profile"] = "2HandHeavy",
-        },
-
         ["Base.LargeStone"] = {
             ["wep_profile"] = "2HandHeavy",
         },
@@ -3341,49 +3156,310 @@ local main = {
             ["wep_profile"] = "2HandHeavy",
         },
 
+        ["Base.UmbrellaTINTED"] = {
+            ["wep_profile"] = "ThinWood",
+        },
+
+        ["Base.PotForged"] = {
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+
+        --CAR STUFF
+        ["Base.FrontWindow3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.FrontWindow2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.FrontWindow1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.RearWindshield3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.RearWindshield2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.RearWindshield1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.RearWindow3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.RearWindow2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.RearWindow1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "CeramicOrGlass",
+        },
+
+        ["Base.FrontCarDoor3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "BigFlatMetal",
+        },
+
+        ["Base.FrontCarDoor2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "BigFlatMetal",
+        },
+
+        ["Base.FrontCarDoor1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "BigFlatMetal",
+        },
+
+        ["Base.EngineDoor3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "BigFlatMetal",
+        },
+
+        ["Base.EngineDoor2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "BigFlatMetal",
+        },
+
+        ["Base.EngineDoor1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "BigFlatMetal",
+        },
+
+        ["Base.NormalTire3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalTire2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalTire1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.SmallGasTank3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.SmallGasTank2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.SmallGasTank1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.NormalGasTank3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalGasTank2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalGasTank1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.BigGasTank3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.BigGasTank2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.BigGasTank1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "HollowMetal",
+        },
+
+        ["Base.NormalCarSeat3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalCarSeat2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalCarSeat1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalBrake3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalBrake2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.NormalBrake1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.ModernTire3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.ModernTire2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.ModernTire1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.ModernBrake3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.ModernBrake2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.ModernBrake1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
+            ["wep_profile"] = "2HandHeavy",
+        },
+
         ["Base.OldTire3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.OldTire2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.OldTire1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.OldBrake3"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.OldBrake2"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.OldBrake1"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.LightbarYellow"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.LightbarRedBlue"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.LightbarRed"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
         ["Base.LightbarBlue"] = {
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
         },
 
-        ["Base.UmbrellaTINTED"] = {
-            ["wep_profile"] = "ThinWood",
-        },
     },
 }
 

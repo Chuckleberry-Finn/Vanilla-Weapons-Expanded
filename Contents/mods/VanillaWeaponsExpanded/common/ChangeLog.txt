@@ -18,3 +18,7 @@ Items that get their type changed are deleted upon mod deactivation/activation.
 - Added test suite module - to use with in-line command tool in debug.
 - Various Tweaks.
 [ ------ ]
+
+[ 1/6/25 ]
+- Fixed issues with car parts receiving significantly lowered condition.
+[ ------ ]
