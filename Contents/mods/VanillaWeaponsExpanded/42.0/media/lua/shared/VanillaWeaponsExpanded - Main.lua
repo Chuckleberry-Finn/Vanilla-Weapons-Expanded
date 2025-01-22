@@ -2936,50 +2936,6 @@ local main = {
             ["wep_profile"] = "CeramicOrGlass",
         },
 
-        ["Base.LightBulbYellow"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbRed"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbPurple"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbPink"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbOrange"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbMagenta"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbGreen"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbCyan"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbBox"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulbBlue"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
-        ["Base.LightBulb"] = {
-            ["wep_profile"] = "CeramicOrGlass",
-        },
-
         ["Base.Milk"] = {
             ["wep_profile"] = "Cardboard",
         },
@@ -3442,6 +3398,72 @@ local main = {
             ["ConditionMax"] = "100",
             ["ConditionLossFactor"] = "20",
             ["wep_profile"] = "2HandHeavy",
+        },
+
+        ["Base.LightBulbYellow"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbRed"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbPurple"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbPink"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbOrange"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbMagenta"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbGreen"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbCyan"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbBox"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulbBlue"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
+        },
+
+        ["Base.LightBulb"] = {
+            ["wep_profile"] = "CeramicOrGlass",
+            ["ConditionMax"] = "100",
+            ["ConditionLossFactor"] = "100",
         },
 
         ["Base.LightbarYellow"] = {
