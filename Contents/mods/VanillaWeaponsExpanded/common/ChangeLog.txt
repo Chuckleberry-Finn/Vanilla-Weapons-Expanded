@@ -36,3 +36,7 @@ link3 = Github = https://steamcommunity.com/linkfilter/?u=https://github.com/Chu
 [ 1/21/25 ]
 - Changed lightbulbs to handle having a larger conditionMax.
 [ ------ ]
+
+[ 1/28/26 ]
+- B42.13 Update - Slight API change.
+[ ------ ]

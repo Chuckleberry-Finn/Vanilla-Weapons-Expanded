@@ -6,4 +6,3 @@ author=Chuckleberry Finn
 icon=icon.png
 versionMin=42.0
 require=\ChuckleberryFinnAlertSystem,\errorMagnifier,
-incompatible=\VanillaWeaponsExpanded,
