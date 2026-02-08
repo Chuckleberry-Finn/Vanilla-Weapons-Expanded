@@ -18,11 +18,8 @@ description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubuserc
 description=
 description=
 description=[img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/noModPacks.png[/img]
-description=[img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/bugHunt.png[/img]
-description=[quote][b]Windows:[/b] %userprofile%\Zomboid\console.txt[/quote]
-description=[quote][b]Mac/Linux:[/b] $User\Zomboid\console.txt[/quote]
-description=Upload this file [b]in entirety[/b] to [url=https://github.com/Chuckleberry-Finn/Vanilla-Weapons-Expanded]Github[/url] as an issue.
-description=Share the link in a comment below if it is urgent.
+description=
+description=[url=https://chuckleberry-finn.github.io/issues/][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/bugHunt.png[/img][/url]
 description=
 description=[i]Additional Credits: Mopop, Ash, and members of the Modding Community Discord[/i]
 description=
